@@ -8,7 +8,7 @@
     "start": "node ./src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Allison",
+  "author": "Allison Vinicius PP",
   "license": "ISC",
   "dependencies": {
     "@prisma/client": "^6.8.2",
