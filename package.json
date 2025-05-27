@@ -2,13 +2,13 @@
   "name": "projeto",
   "version": "1.0.0",
   "description": "servidor de exemplo para turma 148",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "dev": "ts-node-dev ./src/index.ts",
     "start": "node ./src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Allison Vinicius PP",
+  "author": "Andre",
   "license": "ISC",
   "dependencies": {
     "@prisma/client": "^6.8.2",

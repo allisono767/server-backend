@@ -2003,7 +2003,7 @@ export namespace Prisma {
     description: string | null
     price: number | null
     quantity: number | null
-    imagem: string | null
+    image: string | null
   }
 
   export type ListMaxAggregateOutputType = {
@@ -2011,7 +2011,7 @@ export namespace Prisma {
     description: string | null
     price: number | null
     quantity: number | null
-    imagem: string | null
+    image: string | null
   }
 
   export type ListCountAggregateOutputType = {
@@ -2019,7 +2019,7 @@ export namespace Prisma {
     description: number
     price: number
     quantity: number
-    imagem: number
+    image: number
     _all: number
   }
 
@@ -2041,7 +2041,7 @@ export namespace Prisma {
     description?: true
     price?: true
     quantity?: true
-    imagem?: true
+    image?: true
   }
 
   export type ListMaxAggregateInputType = {
@@ -2049,7 +2049,7 @@ export namespace Prisma {
     description?: true
     price?: true
     quantity?: true
-    imagem?: true
+    image?: true
   }
 
   export type ListCountAggregateInputType = {
@@ -2057,7 +2057,7 @@ export namespace Prisma {
     description?: true
     price?: true
     quantity?: true
-    imagem?: true
+    image?: true
     _all?: true
   }
 
@@ -2152,7 +2152,7 @@ export namespace Prisma {
     description: string
     price: number
     quantity: number
-    imagem: string
+    image: string
     _count: ListCountAggregateOutputType | null
     _avg: ListAvgAggregateOutputType | null
     _sum: ListSumAggregateOutputType | null
@@ -2179,7 +2179,7 @@ export namespace Prisma {
     description?: boolean
     price?: boolean
     quantity?: boolean
-    imagem?: boolean
+    image?: boolean
   }, ExtArgs["result"]["list"]>
 
   export type ListSelectCreateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
@@ -2187,7 +2187,7 @@ export namespace Prisma {
     description?: boolean
     price?: boolean
     quantity?: boolean
-    imagem?: boolean
+    image?: boolean
   }, ExtArgs["result"]["list"]>
 
   export type ListSelectUpdateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
@@ -2195,7 +2195,7 @@ export namespace Prisma {
     description?: boolean
     price?: boolean
     quantity?: boolean
-    imagem?: boolean
+    image?: boolean
   }, ExtArgs["result"]["list"]>
 
   export type ListSelectScalar = {
@@ -2203,10 +2203,10 @@ export namespace Prisma {
     description?: boolean
     price?: boolean
     quantity?: boolean
-    imagem?: boolean
+    image?: boolean
   }
 
-  export type ListOmit<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetOmit<"id" | "description" | "price" | "quantity" | "imagem", ExtArgs["result"]["list"]>
+  export type ListOmit<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetOmit<"id" | "description" | "price" | "quantity" | "image", ExtArgs["result"]["list"]>
 
   export type $ListPayload<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
     name: "List"
@@ -2216,7 +2216,7 @@ export namespace Prisma {
       description: string
       price: number
       quantity: number
-      imagem: string
+      image: string
     }, ExtArgs["result"]["list"]>
     composites: {}
   }
@@ -2644,7 +2644,7 @@ export namespace Prisma {
     readonly description: FieldRef<"List", 'String'>
     readonly price: FieldRef<"List", 'Float'>
     readonly quantity: FieldRef<"List", 'Int'>
-    readonly imagem: FieldRef<"List", 'String'>
+    readonly image: FieldRef<"List", 'String'>
   }
     
 
@@ -3035,7 +3035,7 @@ export namespace Prisma {
     description: 'description',
     price: 'price',
     quantity: 'quantity',
-    imagem: 'imagem'
+    image: 'image'
   };
 
   export type ListScalarFieldEnum = (typeof ListScalarFieldEnum)[keyof typeof ListScalarFieldEnum]
@@ -3135,7 +3135,7 @@ export namespace Prisma {
     description?: StringFilter<"List"> | string
     price?: FloatFilter<"List"> | number
     quantity?: IntFilter<"List"> | number
-    imagem?: StringFilter<"List"> | string
+    image?: StringFilter<"List"> | string
   }
 
   export type ListOrderByWithRelationInput = {
@@ -3143,7 +3143,7 @@ export namespace Prisma {
     description?: SortOrder
     price?: SortOrder
     quantity?: SortOrder
-    imagem?: SortOrder
+    image?: SortOrder
   }
 
   export type ListWhereUniqueInput = Prisma.AtLeast<{
@@ -3154,7 +3154,7 @@ export namespace Prisma {
     description?: StringFilter<"List"> | string
     price?: FloatFilter<"List"> | number
     quantity?: IntFilter<"List"> | number
-    imagem?: StringFilter<"List"> | string
+    image?: StringFilter<"List"> | string
   }, "id">
 
   export type ListOrderByWithAggregationInput = {
@@ -3162,7 +3162,7 @@ export namespace Prisma {
     description?: SortOrder
     price?: SortOrder
     quantity?: SortOrder
-    imagem?: SortOrder
+    image?: SortOrder
     _count?: ListCountOrderByAggregateInput
     _avg?: ListAvgOrderByAggregateInput
     _max?: ListMaxOrderByAggregateInput
@@ -3178,7 +3178,7 @@ export namespace Prisma {
     description?: StringWithAggregatesFilter<"List"> | string
     price?: FloatWithAggregatesFilter<"List"> | number
     quantity?: IntWithAggregatesFilter<"List"> | number
-    imagem?: StringWithAggregatesFilter<"List"> | string
+    image?: StringWithAggregatesFilter<"List"> | string
   }
 
   export type UserCreateInput = {
@@ -3231,7 +3231,7 @@ export namespace Prisma {
     description: string
     price: number
     quantity: number
-    imagem: string
+    image: string
   }
 
   export type ListUncheckedCreateInput = {
@@ -3239,14 +3239,14 @@ export namespace Prisma {
     description: string
     price: number
     quantity: number
-    imagem: string
+    image: string
   }
 
   export type ListUpdateInput = {
     description?: StringFieldUpdateOperationsInput | string
     price?: FloatFieldUpdateOperationsInput | number
     quantity?: IntFieldUpdateOperationsInput | number
-    imagem?: StringFieldUpdateOperationsInput | string
+    image?: StringFieldUpdateOperationsInput | string
   }
 
   export type ListUncheckedUpdateInput = {
@@ -3254,7 +3254,7 @@ export namespace Prisma {
     description?: StringFieldUpdateOperationsInput | string
     price?: FloatFieldUpdateOperationsInput | number
     quantity?: IntFieldUpdateOperationsInput | number
-    imagem?: StringFieldUpdateOperationsInput | string
+    image?: StringFieldUpdateOperationsInput | string
   }
 
   export type ListCreateManyInput = {
@@ -3262,14 +3262,14 @@ export namespace Prisma {
     description: string
     price: number
     quantity: number
-    imagem: string
+    image: string
   }
 
   export type ListUpdateManyMutationInput = {
     description?: StringFieldUpdateOperationsInput | string
     price?: FloatFieldUpdateOperationsInput | number
     quantity?: IntFieldUpdateOperationsInput | number
-    imagem?: StringFieldUpdateOperationsInput | string
+    image?: StringFieldUpdateOperationsInput | string
   }
 
   export type ListUncheckedUpdateManyInput = {
@@ -3277,7 +3277,7 @@ export namespace Prisma {
     description?: StringFieldUpdateOperationsInput | string
     price?: FloatFieldUpdateOperationsInput | number
     quantity?: IntFieldUpdateOperationsInput | number
-    imagem?: StringFieldUpdateOperationsInput | string
+    image?: StringFieldUpdateOperationsInput | string
   }
 
   export type IntFilter<$PrismaModel = never> = {
@@ -3383,7 +3383,7 @@ export namespace Prisma {
     description?: SortOrder
     price?: SortOrder
     quantity?: SortOrder
-    imagem?: SortOrder
+    image?: SortOrder
   }
 
   export type ListAvgOrderByAggregateInput = {
@@ -3397,7 +3397,7 @@ export namespace Prisma {
     description?: SortOrder
     price?: SortOrder
     quantity?: SortOrder
-    imagem?: SortOrder
+    image?: SortOrder
   }
 
   export type ListMinOrderByAggregateInput = {
@@ -3405,7 +3405,7 @@ export namespace Prisma {
     description?: SortOrder
     price?: SortOrder
     quantity?: SortOrder
-    imagem?: SortOrder
+    image?: SortOrder
   }
 
   export type ListSumOrderByAggregateInput = {

@@ -23,5 +23,5 @@ model List {
   description String
   price Float
   quantity Int
-  imagem String
+  image String
 }
